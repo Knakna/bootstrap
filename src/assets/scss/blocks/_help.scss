@@ -1,18 +1,3 @@
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-}
-
-html,
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-}
 
 .help {
     padding: 175px 0;
@@ -34,6 +19,7 @@ body {
 .title__slogan {
     font-family: "QuicksandMedium", sans-serif;
     font-size: 24px;
+
 }
 
 .help__card {
@@ -49,9 +35,7 @@ body {
 
 .help__card-title {
     height: 45px;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-align: center;
     align-items: center;
     font-family: "QuicksandBold", sans-serif;
     color: #495274;
@@ -82,11 +66,8 @@ body {
 }
 
 .help__card-body {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -ms-flex-align: start;
     align-items: flex-start;
     padding: 16px 10px 50px 72px;
 }

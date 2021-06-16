@@ -1,5 +1,6 @@
 @import "./abstracts/vars";
 @import "./abstracts/mixins";
+@import "./abstracts/fonts";
 
 
 *,
@@ -8,12 +9,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 html,
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+.container {
+    width: 1210px;
+    width: 1110px;
 }
 
-@import "./header";
-@import "./main-block";
+
+@import "./blocks/header";
+@import "./components/menu";
+@import "./components/btn";
+
+
+@import "./blocks/help";
+
