@@ -16,12 +16,34 @@
 html,
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 62.5%;
+    font-size: px-to-rem(10);
+
 }
+
 .container {
     width: 1210px;
     width: 1110px;
 }
+
+.q {
+    font-family: OpenSans;
+    font-weight: 700;
+    font-size: px-to-rem(120);
+
+}
+
+.w {
+    font-family: OpenSans;
+    font-weight: 600;
+}
+
+.e {
+    font-family: Quicksand;
+    font-weight: 600;
+}
+
+
+
 
 
 @import "./blocks/header";
@@ -32,4 +54,3 @@ body {
 
 
 @import "./blocks/help";
-

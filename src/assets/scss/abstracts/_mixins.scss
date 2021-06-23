@@ -14,5 +14,13 @@
     }
     @media (#{$type}-width: $width) {
         @content;
-    } 
+    }
 }
+
+@function px-to-rem($px-val) {
+    $rem: $px-val/16;
+    @return ($rem * 1rem);
+  }
+
+//   font-size: px-to-rem(12);
+

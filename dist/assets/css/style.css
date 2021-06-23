@@ -1,48 +1,48 @@
 @font-face {
     font-family: 'OpenSans';
-    src: url("./../../fonts/OpenSans-Bold.ttf") format("truetype");
+    src: url("./../fonts/OpenSans-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'OpenSans';
-  src: url("./../../fonts/OpenSans-SemiBold.ttf") format("truetype");
+  src: url("./../fonts/OpenSans-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
     font-family: 'Quicksand';
-  src: url("./../../fonts/Quicksand-Bold.ttf") format("truetype");
+  src: url("./../fonts/Quicksand-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
     font-family: 'Quicksand';
-  src: url("./../../fonts/Quicksand-Medium.ttf") format("truetype");
+  src: url("./../fonts/Quicksand-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
     font-family: 'Quicksand';
-  src: url("./../../fonts/Quicksand-Regular.ttf") format("truetype");
+  src: url("./../fonts/Quicksand-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-  src: url("./../../fonts/Roboto-Medium.ttf") format("truetype");
+  src: url("./../fonts/Roboto-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-  src: url("./../../fonts/Roboto-Regular.ttf") format("truetype");
+  src: url("./../fonts/Roboto-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -60,12 +60,28 @@
 html,
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 62.5%;
+    font-size: 0.625rem;
 }
 
 .container {
     width: 1210px;
     width: 1110px;
+}
+
+.q {
+    font-family: OpenSans;
+    font-weight: 700;
+    font-size: 7.5rem;
+}
+
+.w {
+    font-family: OpenSans;
+    font-weight: 600;
+}
+
+.e {
+    font-family: Quicksand;
+    font-weight: 600;
 }
 
 .header {
