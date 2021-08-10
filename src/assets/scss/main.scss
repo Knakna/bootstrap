@@ -16,38 +16,38 @@
 html,
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: px-to-rem(10);
+    font-size: 10px;
 
 }
 
-.container {
-    width: 1210px;
-    width: 1110px;
-}
+// .container {
+//     width: 1210px;
+//     width: 1110px;
+// }
 
-.q {
-    font-family: OpenSans;
-    font-weight: 700;
-    font-size: px-to-rem(120);
+// .q {
+//     font-family: OpenSans;
+//     font-weight: 700;
+//     font-size: px-to-rem(120);
 
-}
+// }
 
-.w {
-    font-family: OpenSans;
-    font-weight: 600;
-}
+// .w {
+//     font-family: OpenSans;
+//     font-weight: 600;
+// }
 
-.e {
-    font-family: Quicksand;
-    font-weight: 600;
-}
+// .e {
+//     font-family: Quicksand;
+//     font-weight: 600;
+// }
 
 
 
 
 
 @import "./blocks/header";
-@import "./components/menu";
+@import "./components/logo";
 @import "./components/social";
 
 @import "./components/btn";

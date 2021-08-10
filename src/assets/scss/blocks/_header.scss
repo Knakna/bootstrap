@@ -1,4 +1,14 @@
-
 .header {
-    padding: 175px 0;
+    text-decoration: none;
+
+
+    &__nav {
+        @include flex();
+    }
+
+    &__list {
+
+    }
+
+
 }

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.min.css">
-    <title>bootstrap</title>
+    <title>Bootstrap</title>
 </head>
 
 <body>
@@ -21,8 +21,10 @@
 
         <symbol id="facebook" viewBox="0 0 9 17" width="9" height="17">
             <g>
-                <path
-                    d="M5.65597 17V9.24548H8.22501L8.60969 6.2234H5.65597V4.294C5.65597 3.41904 5.89578 2.82278 7.13417 2.82278L8.71368 2.82208V0.119112C8.44051 0.0822826 7.5029 -1.65981e-08 6.41206 -1.65981e-08C4.13475 -1.65981e-08 2.57564 1.40836 2.57564 3.9947V6.2234H-2.3404e-08V9.24548H2.57564V17H5.65597Z" />
+                <path d="M5.65597 17V9.24548H8.22501L8.60969 6.2234H5.65597V4.294C5.65597
+                    3.41904 5.89578 2.82278 7.13417 2.82278L8.71368 2.82208V0.119112C8.44051
+                    0.0822826 7.5029 -1.65981e-08 6.41206 -1.65981e-08C4.13475 -1.65981e-08
+                    2.57564 1.40836 2.57564 3.9947V6.2234H-2.3404e-08V9.24548H2.57564V17H5.65597Z" />
             </g>
         </symbol>
 
@@ -30,12 +32,14 @@
 
         <symbol id="telegram" width="15" height="13" viewBox="0 0 15 13">
             <g>
-                <path d="M5.81972 12.0232C5.38191 12.0232 5.4563 11.8651 5.3053 11.4664L4.01782 7.41344L13.9283 1.78983"
-                    fill="#9399AB" />
-                <path d="M5.81982 12.0232C6.15768 12.0232 6.30696 11.8754 6.49554 11.7L8.29744 10.0241L6.04979 8.72772"
-                    fill="#70788E" />
                 <path
-                    d="M6.04945 8.72806L11.4957 12.5768C12.1172 12.9048 12.5657 12.735 12.7205 12.0249L14.9374 2.03246C15.1644 1.16206 14.5906 0.76729 13.996 1.02547L0.978404 5.82666C0.0898302 6.16756 0.0950105 6.64173 0.816436 6.85301L4.15705 7.85032L11.8909 3.18335C12.256 2.97158 12.5911 3.08543 12.3161 3.31891" />
+                    d="M5.81972 12.0232C5.38191 12.0232 5.4563 11.8651 5.3053 11.4664L4.01782 7.41344L13.9283 1.78983" />
+                <path
+                    d="M5.81982 12.0232C6.15768 12.0232 6.30696 11.8754 6.49554 11.7L8.29744 10.0241L6.04979 8.72772" />
+                <path d="M6.04945 8.72806L11.4957 12.5768C12.1172 12.9048 12.5657 12.735 12.7205
+                    12.0249L14.9374 2.03246C15.1644 1.16206 14.5906 0.76729 13.996 1.02547L0.978404
+                    5.82666C0.0898302 6.16756 0.0950105 6.64173 0.816436 6.85301L4.15705 7.85032L11.8909
+                    3.18335C12.256 2.97158 12.5911 3.08543 12.3161 3.31891" />
             </g>
         </symbol>
 
@@ -57,8 +61,8 @@
 
     </svg>
 
-<!-- test fonts -->
-<!-- <img src="./../assets/images/arrow-open.svg" alt="">
+    <!-- test fonts -->
+    <!-- <img src="./../assets/images/arrow-open.svg" alt="">
 <img src="/assets/images/arrow.svg" alt="">
 <div class="q">ddfg</div>
 <div class="w">dfhgjdj</div>
@@ -68,74 +72,85 @@
     <!-- header -->
 
     <header class="header">
-        <div class="menu__container">
-            <div class="menu__logo"></div>
-            <nav class="menu__nav">
-                <ul class="menu__list">
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Home</a>
+        <div class="container">
+
+            <nav class="header__nav">
+
+                .header__menu   
+                <a class="logo" href="#">
+                    <div class="logo__inner"></div>
+                </a>
+
+
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="#">Home</a>
                     </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Blog</a>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Blog</a>
                     </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Features</a>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Features</a>
                     </li>
-                    <li class="menu__item">
+                    <li class="header__item">
                         <a class="menu__link" href="#">Pricing</a>
                     </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Documentation</a>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Documentation</a>
                     </li>
                 </ul>
+
+                <div class="social">
+
+                    <ul class="social__list">
+
+
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <svg class="social__img" viewBox="0 0 9 17" width="9" height="17">
+                                    <use xlink:href="./assets/images/sprite.svg#facebook"> </use>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <svg class="social__img" width="15" height="13" viewBox="0 0 15 13">
+                                    <use xlink:href="./assets/images/sprite.svg#telegram"> </use>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <svg class="social__img" width="18" height="14" viewBox="0 0 18 14">
+                                    <use xlink:href="./assets/images/sprite.svg#twitter"> </use>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <svg class="social__img" width="17" height="14" viewBox="0 0 17 14">
+                                    <use xlink:href="./assets/images/sprite.svg#medium"> </use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="menu__btn btn">Get started</button>
+
+
             </nav>
 
 
 
-            <div class="social">
-
-                <ul class="social__list">
-
-
-                    <li class="social__item">
-                        <a class="social__link" href="#" target="_blank">
-                            <svg class="social__img" viewBox="0 0 9 17" width="9" height="17">
-                                <use xlink:href="./assets/images/sprite.svg#facebook"> </use>
-                            </svg>
-                        </a>
-                    </li>
-
-                    <li class="social__item">
-                        <a class="social__link" href="#" target="_blank">
-                            <svg class="social__img" width="15" height="13" viewBox="0 0 15 13">
-                                <use xlink:href="./assets/images/sprite.svg#telegram"> </use>
-                            </svg>
-                        </a>
-                    </li>
-
-                    <li class="social__item">
-                        <a class="social__link" href="#" target="_blank">
-                            <svg class="social__img" width="18" height="14" viewBox="0 0 18 14">
-                                <use xlink:href="./assets/images/sprite.svg#twitter"> </use>
-                            </svg>
-                        </a>
-                    </li>
-
-                    <li class="social__item">
-                        <a class="social__link" href="#" target="_blank">
-                            <svg class="social__img" width="17" height="14" viewBox="0 0 17 14">
-                                <use xlink:href="./assets/images/sprite.svg#medium"> </use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <button class="menu__btn btn">Get started</button>
 
 
 
-        </div>   <!-- /.menu -->
+
+        </div> <!-- /.menu -->
 
 
     </header>
@@ -193,7 +208,8 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> <!-- /.features -->
+
 
     <!-- help block -->
     <div class="help">
@@ -299,7 +315,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> <!-- /.help -->
 
 
 
