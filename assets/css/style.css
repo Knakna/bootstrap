@@ -60,42 +60,30 @@
 html,
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 0.625rem;
-}
-
-.container {
-    width: 1210px;
-    width: 1110px;
-}
-
-.q {
-    font-family: OpenSans;
-    font-weight: 700;
-    font-size: 7.5rem;
-}
-
-.w {
-    font-family: OpenSans;
-    font-weight: 600;
-}
-
-.e {
-    font-family: Quicksand;
-    font-weight: 600;
+    font-size: 10px;
 }
 
 .header {
-    padding: 175px 0;
+    text-decoration: none;
 }
 
-.menu__container {
+.header__nav {
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
-.menu__list {
-    display: -ms-flexbox;
-    display: flex;
+.logo__inner {
+    width: 26px;
+    height: 26px;
+    margin-right: 70px;
+    border-radius: 50%;
+    background-color: #5E81FE;
 }
 
 .social__list {
