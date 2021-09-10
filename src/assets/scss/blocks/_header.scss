@@ -1,14 +1,23 @@
+
+
 .header {
-    text-decoration: none;
+  text-decoration: none;
 
 
-    &__nav {
-        @include flex();
-    }
+  &__nav {
+    @include flex();
+  }
 
-    &__list {
+  &__menu {
+    @include flex();
 
-    }
+  }
+
+
+  &__list {
+    @include flex();
+
+  }
 
 
 }

@@ -1,0 +1,11 @@
+.logo {
+  display: block;
+  &__inner {
+      width: 26px;
+      height: 26px;
+      margin-right: 70px;
+
+      border-radius: 50%;
+      background-color: #5E81FE;
+  }
+}
