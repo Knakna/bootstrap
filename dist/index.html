@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
@@ -60,96 +60,89 @@
 
 </svg>
 
-<!-- test fonts -->
-<!-- <img src="./../assets/images/arrow-open.svg" alt="">
-<img src="/assets/images/arrow.svg" alt="">
-<div class="q">ddfg</div>
-<div class="w">dfhgjdj</div>
-<div class="e">dfsdf</div>
-<div class="r">nvdjr</div> -->
 
 <!-- header -->
-
 <header class="header">
-    <div class="container">
+    <div class="header__container mx-auto">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
 
 
-        <nav class="header__nav row">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <div class="header__menu row">
-                <a class="logo" href="#">
-                    <div class="logo__inner"></div>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="logo__link navbar-brand" href="#">
+                    <img class="logo" src="./assets/images/logo.svg" alt="logo">
                 </a>
 
 
-                <ul class="header__list">
-                    <li class="header__item">
-                        <a class="header__link" href="#">Home</a>
+                <ul  class="menu__list d-flex align-items-center navbar-nav mr-auto mt-2 mt-lg-0" style="list-style-type: none !important;">
+                    <li class="menu__list-item nav-item ">
+                        <a class="menu__link nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="header__item">
-                        <a class="header__link" href="#">Blog</a>
+                    <li class="menu__list-item nav-item ">
+                        <a class="menu__link nav-link " href="#">Blog</a>
                     </li>
-                    <li class="header__item">
-                        <a class="header__link" href="#">Features</a>
+                    <li class="menu__list-item nav-item ">
+                        <a class="menu__link nav-link " href="#">Features</a>
                     </li>
-                    <li class="header__item">
-                        <a class="menu__link" href="#">Pricing</a>
+                    <li class="menu__list-item nav-item ">
+                        <a class="menu__link nav-link " href="#">Pricing</a>
                     </li>
-                    <li class="header__item">
-                        <a class="header__link" href="#">Documentation</a>
+                    <li class="menu__list-item nav-item ">
+                        <a class="menu__link nav-link " href="#">Documentation</a>
                     </li>
                 </ul>
-            </div>
 
 
-            <div class="header__outer row">
-                <div class="social">
+                <div class="header__block-right d-flex  align-items-center">
+                    <div class="header__social social">
 
-                    <ul class="social__list d-flex">
+                        <ul class="social__list d-flex align-items-center justify-content-center menu__list-item">
+                            <li class="social__list-item">
+                                <a href="#" class="socials-icon">
+                                    <svg class="socials-icon">
+                                        <use xlink:href="#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="#" class="social__link">
+                                    <svg class="socials-icon">
+                                        <use xlink:href="#telegram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="#" class="social__link">
+                                    <svg class="socials-icon">
+                                        <use xlink:href="#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="#" class="social__link">
+                                    <svg class="socials-icon">
+                                        <use xlink:href="#medium"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
 
-
-                        <li class="social__item">
-                            <a class="social__link" href="#" target="_blank">
-                                <svg class="social__img" viewBox="0 0 9 17" width="9" height="17">
-                                    <use xlink:href="./assets/images/sprite.svg#facebook"></use>
-                                </svg>
-                            </a>
-                        </li>
-
-                        <li class="social__item">
-                            <a class="social__link" href="#" target="_blank">
-                                <svg class="social__img" width="15" height="13" viewBox="0 0 15 13">
-                                    <use xlink:href="./assets/images/sprite.svg#telegram"></use>
-                                </svg>
-                            </a>
-                        </li>
-
-                        <li class="social__item">
-                            <a class="social__link" href="#" target="_blank">
-                                <svg class="social__img" width="18" height="14" viewBox="0 0 18 14">
-                                    <use xlink:href="./assets/images/sprite.svg#twitter"></use>
-                                </svg>
-                            </a>
-                        </li>
-
-                        <li class="social__item">
-                            <a class="social__link" href="#" target="_blank">
-                                <svg class="social__img" width="17" height="14" viewBox="0 0 17 14">
-                                    <use xlink:href="./assets/images/sprite.svg#medium"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
+                    </div>
                 </div>
 
-                <button class="menu__btn btn">Get started</button>
+                <button class="menu__btn btn btn--blue">Get started</button>
             </div>
 
 
-        </nav>
+        </nav>  <!--/.nav-->
 
 
-    </div> <!-- /.menu -->
+    </div> <!-- /.container -->
 
 
 </header>

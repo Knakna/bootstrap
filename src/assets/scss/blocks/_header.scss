@@ -1,23 +1,30 @@
+//
+//
+//.header {
+//  text-decoration: none;
+//
+//
+//  &__nav {
+//    @include flex();
+//  }
+//
+//  &__menu {
+//    @include flex();
+//
+//  }
+//
+//
+//  &__list {
+//    @include flex();
+//
+//  }
+//
+//
+//}
 
+.social__list {
 
-.header {
-  text-decoration: none;
-
-
-  &__nav {
-    @include flex();
-  }
-
-  &__menu {
-    @include flex();
-
-  }
-
-
-  &__list {
-    @include flex();
-
-  }
+    list-style-type: none;
 
 
 }
