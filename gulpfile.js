@@ -29,7 +29,7 @@ const path = {
         html:   srcPath + "*.html",
         js:     srcPath + "assets/js/*.js",
         css:    srcPath + "assets/scss/**/*.scss",
-        images: srcPath + "assets/images/**/*.{jpeg,jpg,png,svg,webp}",
+        images: srcPath + "assets/images/**/*.{jpg,png,svg,gif,ico,webp,webmanifest,xml,json}",
         fonts:  srcPath + "assets/fonts/**/*.{eot,woff,woff2,ttf,svg}"
     },
     // В эти папки будут собираться файлы
@@ -83,7 +83,7 @@ function html(cb) {
 
 // CSS
 function css(cb) {
-    return src(srcPath + 'assets/scss/main.scss')  // return src(path.src.css, {base: srcPath + 'assets/scss/'})
+    return src(srcPath + 'assets/scss/style.scss') // если порядок файлов не важен, то: return src(path.src.css, {base: srcPath + 'assets/scss/'})
         .pipe(sourcemaps.init())
         .pipe(plumber({
             errorHandler : function(err) {
@@ -123,7 +123,7 @@ function css(cb) {
 
 // Для быстрой компиляции CSS во время разработки
 function cssWatch(cb) {
-    return src(srcPath + 'assets/scss/main.scss') // если нужно компилировать 1 файл, то return src(srcPath + 'assets/scss/main.scss')
+    return src(srcPath + 'assets/scss/style.scss') // если порядок файлов не важен, то: return src(path.src.css, {base: srcPath + 'assets/scss/'})
         .pipe(sourcemaps.init())
         .pipe(plumber({
             errorHandler : function(err) {
@@ -243,8 +243,7 @@ function watchFiles() {
 
 
 const build = gulp.series(clean, gulp.parallel(html, css, js, images, fonts)); // Будет запускаться по команде gulp build
-const watch = gulp.parallel(build, watchFiles, serve); // Будет запускаться по дефолтной команде gulp
-
+const watch = gulp.series(build, gulp.parallel(watchFiles, serve)); // Будет запускаться по дефолтной команде gulp
 
 // Экспорты тасок
 exports.html = html;
