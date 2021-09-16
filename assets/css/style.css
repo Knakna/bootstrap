@@ -1,8 +1,26 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
 body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
     background-color: #fff;
     color: #000;
 }
 
-p {
-    color: red;
+.wrapper {
+    overflow: hidden;
+}
+
+.header__container {
+    max-width: 1235px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
