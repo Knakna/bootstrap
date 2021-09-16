@@ -8,16 +8,20 @@
     list-style: none;
 }
 
+.sr-only {
+    display: none;
+}
+
 
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 10px;
+    font-size: 16px;
     background-color: #fff;
     color: #000;
 }
 
-.inner {
+.wrap {
     overflow: hidden;
 }
 

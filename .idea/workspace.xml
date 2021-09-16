@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e77f4983-4f00-41b6-9b2c-51cbcbf30a25" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/style.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/abstracts/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/abstracts/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wWaV6dE9AnZfiRDsykTj3J1rHB" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../portfolio" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\incubator\bootstrap\src\assets\scss\abstracts" />
+      <recent name="D:\incubator\bootstrap\src\assets\fonts" />
+      <recent name="D:\incubator\bootstrap\src\assets\images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gulp.js.js">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="html" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>html</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="js" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>js</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e77f4983-4f00-41b6-9b2c-51cbcbf30a25" name="Changes" comment="" />
+      <created>1628576818635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628576818635</updated>
+      <workItem from="1628576819862" duration="35000" />
+      <workItem from="1628576939585" duration="2338000" />
+      <workItem from="1628584896244" duration="3000" />
+      <workItem from="1628584913332" duration="28000" />
+      <workItem from="1628586033242" duration="15000" />
+      <workItem from="1628592016150" duration="17000" />
+      <workItem from="1628592703290" duration="8000" />
+      <workItem from="1628596046248" duration="5891000" />
+      <workItem from="1628603949588" duration="2137000" />
+      <workItem from="1631279560563" duration="677000" />
+      <workItem from="1631382824393" duration="167000" />
+      <workItem from="1631458780352" duration="685000" />
+      <workItem from="1631459936651" duration="2888000" />
+      <workItem from="1631466336942" duration="9714000" />
+      <workItem from="1631518737964" duration="428000" />
+      <workItem from="1631519261449" duration="10841000" />
+      <workItem from="1631542792281" duration="663000" />
+      <workItem from="1631611700750" duration="2137000" />
+      <workItem from="1631715573713" duration="249000" />
+      <workItem from="1631715825310" duration="101000" />
+      <workItem from="1631715928760" duration="59000" />
+      <workItem from="1631716025812" duration="20000" />
+      <workItem from="1631791475820" duration="533000" />
+      <workItem from="1631793478136" duration="4000" />
+      <workItem from="1631795573006" duration="3000" />
+      <workItem from="1631795646924" duration="5000" />
+      <workItem from="1631797612965" duration="12000" />
+      <workItem from="1631798606266" duration="1000" />
+      <workItem from="1631799424943" duration="4000" />
+      <workItem from="1631818177091" duration="41000" />
+      <workItem from="1631818219809" duration="175000" />
+    </task>
+    <task id="LOCAL-00001" summary="change project structure">
+      <created>1628598697794</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628598697794</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add classes bootstrap to menu">
+      <created>1631478178786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631478178786</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update project">
+      <created>1631542720829</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631542720829</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change project structure" />
+    <MESSAGE value="add classes bootstrap to menu" />
+    <MESSAGE value="update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project" />
+  </component>
+</project>

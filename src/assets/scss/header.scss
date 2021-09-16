@@ -1,12 +1,23 @@
 .header__container {
-  max-width: 1230px;
-  //margin: 0 auto;
+  max-width: 1235px;
+  margin: 0 auto;
   padding: 0 15px;
 }
 
-.social__item {
-  height: 17px;
-  width: 20px;
+.header__nav {
+  width: 100%;
 }
+
+.header__social {
+  margin-left: auto;
+}
+
+
+
+
+// .social__item {
+//   height: 17px;
+//   width: 20px;
+// }
 
 
