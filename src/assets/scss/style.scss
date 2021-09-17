@@ -1,3 +1,8 @@
+@import './abstracts/vars';
+@import './abstracts/mixins';
+@import './abstracts/fonts';
+
+
 *,
 *::after,
 *::before {
@@ -8,11 +13,13 @@
     list-style: none;
 }
 
+ul {
+    margin-bottom: 0;
+}
+
 .sr-only {
     display: none;
 }
-
-
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -25,4 +32,8 @@ body {
     overflow: hidden;
 }
 
-@import './header.scss'
+@import './header';
+@import './components/btns';
+@import './components/logo';
+@import './components/menu';
+@import './components/social';

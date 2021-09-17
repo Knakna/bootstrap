@@ -1,0 +1,15 @@
+.menu__link {
+  @extend %linkHeader;
+
+  @include media(lg) {
+    margin-right: 15px;
+
+    font-size: 12px;
+    line-height: 1.1;
+  }
+
+  &:hover {
+    color: #5E81FE!important;
+    text-shadow: 0px 0px 5px #E6E6E6;;
+  }
+}

@@ -1,3 +1,6 @@
+
+
+
 // Colors
 $textColor: #697CA6;
 $textHover: #5E81FE;
@@ -6,12 +9,24 @@ $social: #B6BAC7;
 $socialHover: #6188FF;
 
 $btnBg: #D2E1FF;
+$textBtnBlue: #3A79FF;
+
+$headerLink: #697CA6;
+
+$logoColor: #5E81FE;
 
 
+%linkHeader {
+  color: $headerLink;
+  font-family: Quicksand;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 2.5;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-shadow: 0px 0px 5px #E6E6E6;
 
-
-
-
+}
 
 
 // $accentColor: #FC9B09;
@@ -22,12 +37,13 @@ $btnBg: #D2E1FF;
 // $linkColor: #5286EC;
 
 //Breakpoints
-// $breakpoints: (
-//     xs: 576px,
-//     sm: 768px,
-//     md: 1280px,
-//     lg: 1440px
-// );
+$breakpoints: (
+  //xs:
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+);
 
 // Container
 // %container {

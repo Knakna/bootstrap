@@ -1,0 +1,46 @@
+
+.social {
+flex-direction: column;
+
+  @include media(sm) {
+    flex-direction: row;
+  }
+
+  @include media(lg) {
+    min-width: 325px;
+
+    margin-left: auto;
+  }
+}
+
+.social__list {
+  min-width: 162px;
+  padding-left: 0;
+
+  @include media(lg) {
+    margin-right: 30px;
+  }
+}
+
+.social__item {
+  width: 25px;
+  height: 15px;
+
+  transition: .3s;
+
+  & + .social__item {
+    margin-left: 25px;
+  }
+}
+
+.social__icon {
+  height: 35px;
+
+  fill: $textColor;
+
+  transition: .3s;
+
+  &:hover  {
+    fill: $socialHover;
+  }
+}

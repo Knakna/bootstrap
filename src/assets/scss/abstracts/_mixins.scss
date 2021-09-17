@@ -1,16 +1,17 @@
-@mixin text($fontSize, $fontWeight, $lineHeight, $color) {
-    font-size: $fontSize;
-    font-weight: $fontWeight;
-    line-height: $lineHeight;
-    color: $color;
-}
 
-@mixin flex($flex-direction: row, $align-items: center, $justifyContent: space-between) {
-    display: flex;
-    flex-direction: $flex-direction;
-    align-items: $align-items;
-    justify-content: $justifyContent;
-  }
+//@mixin text($fontSize, $fontWeight, $lineHeight, $color) {
+//    font-size: $fontSize;
+//    font-weight: $fontWeight;
+//    line-height: $lineHeight;
+//    color: $color;
+//}
+//
+//@mixin flex($flex-direction: row, $align-items: center, $justifyContent: space-between) {
+//    display: flex;
+//    flex-direction: $flex-direction;
+//    align-items: $align-items;
+//    justify-content: $justifyContent;
+//  }
 
   //   @include flex(column);
   //   @include flex();
@@ -29,10 +30,13 @@
     }
 }
 
-// @function px-to-rem($px-val) {
-//     $rem: $px-val/16;
-//     @return ($rem * 1rem);
-//   }
 
-//   font-size: px-to-rem(12);
+// @include media(xs) {}
+// 576 @include media(sm) {}
+// 768 @include media(md) {}
+// 992 @include media(lg) {}
+// 1200 @include media(xl) {}
 
+// @media (min-width: 630px) {
+//   width: 240px;
+// }
