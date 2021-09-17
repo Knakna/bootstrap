@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e77f4983-4f00-41b6-9b2c-51cbcbf30a25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/_btns.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/_logo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/_menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/_social.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/style.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/abstracts/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/abstracts/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/abstracts/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,6 +123,12 @@
       <workItem from="1631818768961" duration="133000" />
       <workItem from="1631818946615" duration="6749000" />
       <workItem from="1631858399313" duration="12104000" />
+      <workItem from="1631885064917" duration="2000" />
+      <workItem from="1631885104388" duration="277000" />
+      <workItem from="1631885455316" duration="2000" />
+      <workItem from="1631885587939" duration="2000" />
+      <workItem from="1631910535628" duration="50000" />
+      <workItem from="1631911637085" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="change project structure">
       <created>1628598697794</created>
