@@ -213,3 +213,67 @@ body {
 .social__icon:hover {
     fill: #6188FF;
 }
+
+.header {
+    min-height: 80px;
+    padding: 15px 0 40px;
+}
+
+@media (min-width: 1200px) {
+    .header {
+        padding: 15px 0;
+    }
+}
+
+.header__container {
+    max-width: 1235px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__burger {
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+    background-color: #5E81FE;
+}
+
+.header__logo {
+    margin-right: 60px;
+}
+
+.header__nav {
+    width: 100%;
+}
+
+.header {
+    min-height: 80px;
+    padding: 15px 0 40px;
+}
+
+@media (min-width: 1200px) {
+    .header {
+        padding: 15px 0;
+    }
+}
+
+.header__container {
+    max-width: 1235px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__burger {
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+    background-color: #5E81FE;
+}
+
+.header__logo {
+    margin-right: 60px;
+}
+
+.header__nav {
+    width: 100%;
+}
