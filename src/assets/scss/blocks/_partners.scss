@@ -1,0 +1,38 @@
+.partners {
+  padding: 40px 0;
+}
+
+.partners__list {
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.partners__item {
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+
+    @include media(sm) {
+      margin: 20px 30px;
+    }
+  }
+
+  @include media(sm) {
+    margin: 20px;
+  }
+}
+
+
+
+.partners__icon {
+  width: 117px;
+  height: 29px;
+
+  fill: #D6DAE5;
+  transition: .3s;
+
+
+  &:hover {
+    fill: #5982E7;
+  }
+}

@@ -13,8 +13,9 @@
     list-style: none;
 }
 
-ul {
-    margin-bottom: 0;
+ul, ol, li {
+    margin: 0;
+    padding: 0;
 }
 
 .sr-only {
@@ -32,8 +33,11 @@ body {
     overflow: hidden;
 }
 
-@import './header';
+@import './blocks/header';
 @import './components/btns';
 @import './components/logo';
 @import './components/menu';
 @import './components/social';
+@import './blocks/plan';
+@import './blocks/partners';
+@import './blocks/app';
