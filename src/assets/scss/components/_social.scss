@@ -44,3 +44,14 @@ flex-direction: column;
     fill: $socialHover;
   }
 }
+.social__btn {
+  width: 65%;
+  text-align: center;
+  margin: 30px auto 0;
+
+@include media(sm) {
+  width: unset;
+
+  margin: 0;
+}
+}

@@ -22,15 +22,19 @@
   background-color: $btnBg;
 }
 
-.btn__social {
-    width: 65%;
-    text-align: center;
-    margin: 30px auto 0;
+.btn--dark {
+  min-width: 130px;
+  min-height: 45px;
 
-  @include media(sm) {
-    width: unset;
-
-    margin: 0;
-  }
+  color: #ffffff;
+  background: #4C85FF;
+  box-shadow: 0px 5px 15px rgba(188, 199, 255, 0.75);
+  border-radius: 2px;
 }
 
+.btn--light {
+color: #ADB4D2;
+border: 1px solid #D1D1E4;
+box-sizing: border-box;
+border-radius: 2px;
+}
