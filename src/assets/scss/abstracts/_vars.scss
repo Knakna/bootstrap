@@ -38,22 +38,23 @@ $logoColor: #5E81FE;
   font-family: Quicksand;
   font-weight: 500;
   font-size: 36px;
-  line-height: 45px;
+  line-height: 1.5;
   color: #3D4F9F;
+
+
 }
 
-%bigTitle {
+%mainTitle {
   font-family: Quicksand;
-
   font-weight: 300;
-  font-size: 48px;
+  font-size: 15px;
   line-height: 1.25;
   color: #3D4F9F;
 }
 
 %text {
   font-family: Roboto;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 2;
   letter-spacing: 0.03em;
   color: #8D96BD;

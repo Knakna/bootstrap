@@ -1,24 +1,68 @@
 .app {
-    background: #F5F8FF url(./../images/app/app.png) no-repeat;
+    padding: 185px 0 50px;
+
+    background: #F5F8FF url(./../images/app/app.png) no-repeat 50% 5%;
+    background-size: 270px;
+
+    @include media(sm) {
+        padding: 240px 0 50px;
+        background-size: 470px;
+    }
+
+    @include media(lg) {
+        padding: 60px 0;
+
+        background: #F5F8F9 url(./../images/app/app.png) no-repeat 90% 60px;
+        background-size: 520px;
+    }
+
+    @include media(xl) {
+        padding: 70px 0;
+
+        background: #F5F8F9 url(./../images/app/app.png) no-repeat 90% 70px;
+        background-size: 570px;
+    }
+
+    @media (min-width: 1400px) {
+        min-height: 700px;
+        padding: 50px 0;
+
+        background: #F5F8FF url(./../images/app/app.png) no-repeat 88% -295%;
+    }
 }
 
 .app__content {
     max-width: 430px;
+
+    margin-top: 30px;
+
+    text-align: center;
+
+    @include media(lg) {
+        text-align: left;
+    }
 }
 
 .app__title {
     @extend %title;
 }
+
 .app__subtitle {
+    padding-bottom: 20px;
+
     @extend %subtitle;
 }
 
-.app__subtitle + span {
+.app__subtitle+span {
     @extend %subtitle;
     font-weight: 500;
 }
 
 .app__text {
     @extend %text;
+
+    @include media(lg) {
+        font-size: 15px;
+    }
 }
 
