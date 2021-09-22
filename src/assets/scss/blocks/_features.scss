@@ -1,0 +1,131 @@
+.features {
+  padding: 65px 0;
+
+  background:
+  url(../images/features/cloud1.svg) 170% 27% no-repeat,
+  url(../images/features/cloud2.svg) -15% 15% no-repeat,
+  url(../images/features/cloud3.svg) -56% 86% no-repeat;
+
+  @include media(sm) {
+    background:
+     url(../images/features/cloud1.svg) 120% 27% no-repeat,
+     url(../images/features/cloud2.svg) -5% 15% no-repeat,
+     url(../images/features/cloud3.svg) -4% 86% no-repeat;
+  }
+
+    @include media(md) {
+      padding: 135px 0;
+    }
+
+
+    @include media(xl) {
+      padding: 235px 0;
+
+      background:
+      url(../images/features/cloud1.svg) 96% 25% no-repeat,
+      url(../images/features/cloud2.svg) 12% 18% no-repeat,
+      url(../images/features/cloud3.svg) 4% 76% no-repeat;
+    }
+}
+
+.features__title {
+  @extend %title;
+}
+
+.features__subtitle {
+  display: block;
+
+    padding: 10px 0 40px;
+
+
+  @extend %subtitle;
+  font-size: 24px;
+  font-weight: 600;
+
+  @include media(xl) {
+    // padding: 100px 0;
+  }
+
+}
+
+.features__items {
+  margin-bottom: 50px;
+
+  @include media(xl) {
+    padding: 80px 0;
+    margin: 0;
+  }
+
+}
+
+.features__rounded-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 69px;
+  height: 69px;
+
+  margin: 0 auto 20px;
+
+  border-radius: 50%;
+  background: #F1F5FF;
+}
+
+.features__item-title {
+  font-family: OpenSans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.9;
+  text-align: center;
+  color: #4074F8;
+}
+
+.features__text {
+  font-family: OpenSans;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #ADB3CB;
+
+  @include media(xl) {
+    font-size: 11px;
+  }
+}
+
+.features__item {
+
+  margin-bottom: 50px;
+
+  @include media(xl) {
+    width: 140px;
+  }
+
+
+  @include media(xl) {
+    width: 140px;
+
+    margin: 0  15px;
+  }
+
+
+}
+
+.features__btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  @include media(sm) {
+    flex-direction: row;
+  }
+
+
+}
+
+.features__btn {
+  margin: 15px 30px;
+}
