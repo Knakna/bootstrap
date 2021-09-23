@@ -1,0 +1,51 @@
+// .statistics {
+//   padding: 40px 0;
+// }
+
+.statistics__col {
+  flex-direction: column;
+
+  padding: 70px 90px 60px;
+}
+
+.statistics__customers {
+  background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+  color: #ffffff;
+  text-align: right;
+}
+
+.statistics__users {
+  background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+  color: #5E80FF;
+}
+
+.statistics__img {
+  width: 70px;
+  height: 65px;
+
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  @include media(md) {
+    margin: unset;
+   }
+}
+
+.statististics__number {
+  font-family: Quicksand;
+  font-size: 48px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+
+.statististics__text {
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+
+   @include media(md) {
+    width: 260px;
+   }
+}
