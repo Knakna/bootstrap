@@ -37,13 +37,15 @@
 .carousel-control-next {
 
   @include media(xl) {
-    background-color: #F5F8FF;
+    // background-color: #F5F8FF;
+    right: -70px;
   }
 }
 
 .carousel-control-prev {
   @include media(xl) {
-    background-color: #F5F8FF;
+    // background-color: #F5F8FF;
+    left: -70px;
   }
 }
 
@@ -190,6 +192,10 @@
 
   @include media(sm) {
     flex-direction: row;
+  }
+
+  @include media(lg) {
+    justify-content: left;
   }
 }
 
