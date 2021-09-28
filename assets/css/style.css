@@ -749,14 +749,12 @@ body {
 
 @media (min-width: 1200px) {
     .carousel-control-next {
-        background-color: #F5F8FF;
         right: -70px;
     }
 }
 
 @media (min-width: 1200px) {
     .carousel-control-prev {
-        background-color: #F5F8FF;
         left: -70px;
     }
 }
@@ -921,6 +919,13 @@ body {
     }
 }
 
+@media (min-width: 992px) {
+    .slider__wrap-btns {
+        -ms-flex-pack: left;
+        justify-content: left;
+    }
+}
+
 .slider__btn {
     margin-top: 20px;
 }
@@ -933,16 +938,62 @@ body {
 }
 
 .testimonials {
-    padding: 110px 0;
+    padding: 50px 0 90px;
     background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
 }
 
-.testimonials__content {
-    padding: 35px 0 0 80px;
+@media (min-width: 992px) {
+    .testimonials {
+        padding: 80px;
+    }
 }
 
-.testimonials__title {
-    padding-bottom: 30px;
+@media (min-width: 1200px) {
+    .testimonials {
+        padding: 110px 0;
+    }
+}
+
+.testimonials .carousel-indicators {
+    bottom: -50px;
+}
+
+.testimonials__content {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .testimonials__content {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1400px) {
+    .testimonials__content {
+        padding: 35px 0 0 80px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1400px) {
+    .testimonials__title {
+        padding-bottom: 30px;
+    }
+}
+
+.testimonials__subtitle {
+    font-size: 24px;
+}
+
+@media (min-width: 1400px) {
+    .testimonials__subtitle {
+        font-size: 36px;
+    }
+}
+
+.testimonials__text {
+    margin-top: 30px;
 }
 
 @media (min-width: 992px) {
@@ -952,21 +1003,41 @@ body {
 }
 
 .quotes {
-    padding: 40px 70px 20px;
+    padding: 25px;
     background-color: #fff;
-    box-shadow: 0px 5px 50px #f3f5fa;
+    box-shadow: 0px 5px 70px #f3f5fa;
     text-align: center;
 }
 
+@media (min-width: 1400px) {
+    .quotes {
+        padding: 35px 70px;
+    }
+}
+
+.quotes__content {
+    position: relative;
+}
+
 .quotes__text {
-    -moz-text-align-last: left;
-    text-align-last: left;
+    margin-bottom: 10px;
     font-size: 14px;
 }
 
-img {
+@media (min-width: 992px) {
+    .quotes__text {
+        text-align: left;
+    }
+}
+
+.quotes__avatar {
     width: 62px;
     height: 62px;
-    margin-bottom: -60px;
+    position: relative;
+    z-index: 5;
+    top: -25px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
     border-radius: 50%;
 }
