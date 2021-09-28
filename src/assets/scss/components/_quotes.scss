@@ -1,0 +1,42 @@
+
+.quotes {
+    padding: 25px;
+
+    background-color: #fff;
+
+    box-shadow: 0px 5px 70px #f3f5fa;
+    text-align: center;
+
+    @media (min-width: 1400px) {
+        padding: 35px 70px;
+    }
+}
+
+.quotes__content {
+    position: relative;
+}
+
+.quotes__text {
+
+    margin-bottom: 10px;
+
+    @extend %text;
+    font-size: 14px;
+
+    @include media(lg) {
+        text-align: left;
+    }
+}
+
+.quotes__avatar {
+    width: 62px;
+    height: 62px;
+
+    position: relative;
+    z-index: 5;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border-radius: 50%;
+}
