@@ -1,0 +1,50 @@
+.life {
+    padding: 60px 0;
+
+    background: url(./../images/life/lifeBg.png) no-repeat;
+
+    @include media(xl) {
+        padding: 90px 0;
+    }
+}
+
+.life__content {
+    text-align: center;
+}
+
+.life__title {
+    margin-bottom: 15px;
+
+    @extend %title;
+    color: #fff;
+}
+
+.life__subtitle {
+    padding-bottom: 20px;
+
+    display: inline-block;
+
+    @extend %subtitle;
+    color: #fff;
+    font-weight: 300;
+
+    @include media(lg) {
+        font-size: 48px;
+    }
+}
+
+.life__subtitle+span {
+    @extend %subtitle;
+    font-weight: 500;
+    color: #fff;
+}
+
+.life__text {
+    max-width: 650px;
+
+    margin: 0 auto 55px;
+
+    @extend %text;
+    color: #fff;
+    font-size: 15px;
+}

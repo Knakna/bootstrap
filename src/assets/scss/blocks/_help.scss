@@ -1,0 +1,144 @@
+.help {
+  padding: 65px 0;
+
+  text-align: center;
+
+  @include media(lg) {
+    padding: 155px 0;
+  }
+}
+
+.help__title {
+  @extend %title;
+
+  margin-bottom: 15px;
+}
+
+.help__subtitle {
+  @extend %subtitle;
+  font-size: 24px;
+}
+
+
+.help__content {
+  margin-top: 50px;
+}
+
+.help__card {
+  border: none !important;
+  border-bottom: 1px solid #D8E3FE !important;
+}
+
+.help__card-header {
+  background-color: transparent;
+  padding: 17px 17px 15px;
+  border: none !important;
+}
+
+.help__card-title {
+  display: flex;
+  align-items: center;
+
+  height: 45px;
+
+  font-family: "QuicksandBold", sans-serif;
+  color: #495274;
+  font-size: 15px;
+  letter-spacing: .5px;
+}
+
+.btn.focus,
+.btn:focus {
+  box-shadow: none;
+}
+
+.help__card-btn {
+  height: 12px;
+  width: 20px;
+
+  margin-right: -75px;
+  margin-top: 20px;
+
+  background-image: url(../images/help/arrow-open.svg);
+  background-repeat: no-repeat;
+}
+
+.help__card-btn.collapsed {
+
+
+  background-image: url(../images/help/arrow.svg);
+  background-repeat: no-repeat;
+
+  @include media(lg) {
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+}
+
+.help__card-btn.collapsed+.help__card-title-text {
+  color: #8E96B7;
+  font-family: "QuicksandMedium", sans-serif;
+}
+
+.help__card-title-text {
+  margin-left: 5px;
+
+  text-align: left;
+}
+
+.help__card-body {
+  display: flex;
+  flex-direction: column;
+
+  padding: 16px 10px 50px 25px;
+  margin-top: -20px;
+  margin-left: 50px;
+
+  @include media(lg) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-left: 100px;
+  }
+}
+
+.help__card-text {
+  margin-right: 60px;
+
+  font-family: "RobotoRegular", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #8D96BD;
+  line-height: 1.9;
+  text-align: left;
+}
+
+.help__card-body-btn {
+  height: 42px;
+  max-width: 195px;
+
+  margin-top: 5px;
+
+  background-color: #E8ECF4;
+  font-family: "QuicksandMedium", sans-serif;
+  font-size: 13px;
+  color: #7382A3;
+  border: none;
+  border-radius: 2px;
+
+  @include media(lg) {
+    min-width: 195px;
+  }
+}
+
+.help__card-body-btn:focus {
+  outline: 1px solid transparent;
+}
+
+.help__card-btn {
+  @include media(lg) {
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+}
