@@ -1,7 +1,9 @@
 .life {
     padding: 60px 0;
 
-    background: url(./../images/life/lifeBg.png) no-repeat;
+    background-image: url(./../images/life/lifeBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     @include media(xl) {
         padding: 90px 0;

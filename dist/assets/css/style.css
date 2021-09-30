@@ -35,7 +35,7 @@
     color: #3D4F9F;
 }
 
-.plan__text, .app__text, .slider__text, .testimonials__text, .quotes__text, .life__text {
+.plan__text, .app__text, .slider__text, .testimonials__text, .quotes__text, .life__text, .sing__text, .sing__email {
     font-family: Roboto;
     font-size: 15px;
     line-height: 2;
@@ -200,6 +200,13 @@ body {
 
 .btn--transparent {
     color: #A6B6DA;
+}
+
+.btn--white {
+    background-color: #fff;
+    font-weight: 700;
+    color: #565F82;
+    box-shadow: 0px 5px 15px #6480e8;
 }
 
 @media (min-width: 992px) {
@@ -1186,20 +1193,195 @@ body {
 }
 
 .life {
-    padding: 185px 0 50px;
-    background: url(./../images/life/life.png) no-repeat;
+    padding: 60px 0;
+    background-image: url(./../images/life/lifeBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 1200px) {
+    .life {
+        padding: 90px 0;
+    }
+}
+
+.life__content {
+    text-align: center;
+}
+
+.life__title {
+    margin-bottom: 15px;
+    color: #fff;
 }
 
 .life__subtitle {
     padding-bottom: 20px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 300;
+}
+
+@media (min-width: 992px) {
+    .life__subtitle {
+        font-size: 48px;
+    }
 }
 
 .life__subtitle + span {
     font-weight: 500;
+    color: #fff;
+}
+
+.life__text {
+    max-width: 650px;
+    margin: 0 auto 55px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.sing {
+    padding: 80px 0;
+}
+
+@media (min-width: 1200px) {
+    .sing {
+        padding: 120px 0;
+    }
+}
+
+.sing__content {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 @media (min-width: 992px) {
-    .life__text {
-        font-size: 15px;
+    .sing__content {
+        text-align: left;
+    }
+}
+
+.sing__title {
+    margin-bottom: 15px;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.1;
+    color: #3D4F9F;
+}
+
+@media (min-width: 992px) {
+    .sing__title {
+        font-size: 18px;
+    }
+}
+
+.sing__text {
+    margin: 0 auto;
+    font-size: 16px;
+    max-width: 280px;
+}
+
+@media (min-width: 992px) {
+    .sing__text {
+        font-size: 14px;
+        max-width: 330px;
+        margin: 0;
+    }
+}
+
+.sing__form {
+    text-align: center;
+}
+
+.sing__email {
+    width: 90%;
+    min-height: 50px;
+    padding: 13px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #EFEFF7;
+}
+
+@media (min-width: 768px) {
+    .sing__email {
+        width: 280px;
+        min-height: 60px;
+        margin: 0 10px 0 0;
+    }
+}
+
+.sing__email::-webkit-input-placeholder {
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
+    color: #7A85AD;
+    text-align: center;
+}
+
+.sing__email::-moz-placeholder {
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
+    color: #7A85AD;
+    text-align: center;
+}
+
+.sing__email:-ms-input-placeholder {
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
+    color: #7A85AD;
+    text-align: center;
+}
+
+.sing__email::-ms-input-placeholder {
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
+    color: #7A85AD;
+    text-align: center;
+}
+
+.sing__email::placeholder {
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
+    color: #7A85AD;
+    text-align: center;
+}
+
+.sing__btn {
+    width: 90%;
+    min-height: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+@media (min-width: 768px) {
+    .sing__btn {
+        width: 185px;
+        min-height: 60px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .sing__btn {
+        width: 280px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sing__btn {
+        width: 185px;
+        margin-top: 0;
     }
 }
