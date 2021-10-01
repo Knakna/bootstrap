@@ -289,6 +289,10 @@ body {
     position: relative;
 }
 
+.plan .carousel-indicators {
+    bottom: 10px;
+}
+
 .plan__main-title span {
     font-weight: 500;
 }
@@ -1383,5 +1387,38 @@ body {
     .sing__btn {
         width: 185px;
         margin-top: 0;
+    }
+}
+
+.footer {
+    padding: 15px 0;
+}
+
+@media (min-width: 1200px) {
+    .footer {
+        padding: 15px 0;
+        min-height: 290px;
+    }
+}
+
+.footer .footer__header {
+    padding: 0;
+}
+
+.footer__copy {
+    margin-top: 60px;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 12px;
+    line-height: 1;
+    color: #AEB8D0;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+    .footer__copy {
+        margin: 20px 0 0 11%;
+        text-align: left;
     }
 }
