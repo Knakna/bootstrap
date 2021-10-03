@@ -19,6 +19,11 @@
   width: 56px;
   border-radius: 100%;
   background-color: $textHover;
+
+  &:focus {
+    outline: 1px solid transparent;
+    box-shadow: none;
+  }
 }
 
 .header__logo {
