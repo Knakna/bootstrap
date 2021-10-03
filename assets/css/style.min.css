@@ -122,6 +122,9 @@ body {
   width: 56px;
   border-radius: 100%;
   background-color: #5E81FE; }
+  .header__burger:focus {
+    outline: 1px solid transparent;
+    box-shadow: none; }
 
 .header__logo {
   margin-right: 60px; }
